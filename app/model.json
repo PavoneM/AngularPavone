@@ -1,0 +1,130 @@
+{
+  "informations":{
+    "nom": "Pavone",
+    "prenom": "Manuel",
+    "dateNaissance": "13/05/1994",
+    "lieuNaissance":"Sanremo",
+    "langues": "Francais, Italien",
+    "age": "20",
+    "job" : "Développeur",
+    "maison": "Camporosso (Italie)",
+    "photo": "images/ManuelPavone.png"
+  },
+
+  "competences":{
+    "annees": "2",
+    "diplomes": "DUT Informatique",
+    "langues": "IT, FR, EN, ESP"
+  },
+
+  "progAlgo":[
+    {
+      "nom": "C",
+      "niveau": "80",
+      "description":"Réalisation d'applications dans le cadre universitaire et bonne connaissance du langage"
+    },
+    {
+      "nom": "C++",
+      "niveau": "40",
+      "description":"Bases acquises"
+    },
+    {
+      "nom": "C#",
+      "niveau": "80",
+      "description":"Bases et notions approfondies du langage (développement + IHM)"
+    },
+    {
+      "nom": "ObjectiveC",
+      "niveau": "50",
+      "description":"Auto-apprentissage : Création de deux aplications mobiles pour Iphone"
+    },
+    {
+      "nom": "Java",
+      "niveau": "90",
+      "description":"Très bonnes connaissances ainsi que réalisation de plusieurs projets universitaires (développement + IHM)"
+    },
+    {
+      "nom": "Shell",
+      "niveau": "60",
+      "description":"Bases acquises et creations de programmes dans le cadre universitaire"
+    }
+  ],
+
+  "progWeb":[
+    {
+      "nom": "HTML & CSS",
+      "niveau": "70",
+      "description":"Bonne connaissance des deux langages ainsi que création de plusieurs sites web"
+    },
+    {
+      "nom": "Javascript",
+      "niveau": "65",
+      "description":"Bases acquises, niveau universitaire"
+    },
+    {
+      "nom": "PHP",
+      "niveau": "80",
+      "description":"Bon niveau et contibution à plusieurs projets (universitaires et stage)"
+    },
+    {
+      "nom": "SQL",
+      "niveau": "60",
+      "description":"Bonne connaissance du langage"
+    }
+  ],
+
+  "experienceProfessionelle":[
+    {
+      "date":"Stage AtoS Avril 2014 à Juin 2014",
+      "titre": "Développement web",
+      "complement": "www.caf.fr",
+      "description":"Tierce Maintenance Applicative (TMA) du site de la CNAF. La finalité de mon stage était d'intégrer une équipe et de faire évoluer le site www.caf.fr en fonction des demandes du client."
+    },
+    {
+      "date":"Intermarché Oct. 2013 à Aout 2014",
+      "titre": "Caissier",
+      "complement": "Temps partiel / Temps plein",
+      "description":"En parallèle avec les cours, à mi-temps tous les samedis (8h par jour). De juillet à fin août en tant que qu'emploi saisonnier à temps plein."
+    },
+    {
+      "date":"Intermarché Juil. 2013 à Aout 2013",
+      "titre": "Metteur en rayon",
+      "complement": "Secteur Frais",
+      "description":"Emploi saisonnier en tant que metteur en rayon dans le secteur frais. Mon travail consistait au contrôle des prix, réalisation de promos ainsi qu'organiser les inventaires."
+    },
+    {
+      "date":"Intermarché Juil. 2012 à Aout 2012",
+      "titre": "Metteur en rayon",
+      "complement": "Secteur Bazar",
+      "description":"Emploi saisonnier en tant que metteur en rayon dans le secteur bazar. Mon travail consistait dans l'organisation des rayons ansi que contrôler l'arrivage des nouveaux produits."
+    },
+    {
+      "date":"Musée Juil. 2011 à Aout 2011",
+      "titre": "Acceuil visiteurs",
+      "complement": "Château Dolceacqua",
+      "description":"Emploi saisonnier à l'accueil d'un château / musée à Dolceacqua (Italie)."
+    }
+  ],
+
+  "formation":[
+    {
+      "date":"DUT Info 2014",
+      "titre": "DUT Informatique (2 ans)",
+      "complement": "IUT Nice",
+      "description":"Obtention de mon DUT informatique à l'IUT de Nice ( 1ère année : 7ème de promo / 2ème année : 5ème de promo )."
+    },
+    {
+      "date":"Bac S 2011",
+      "titre": "Lycée Pierre et Marie Curie (Menton)",
+      "complement": "Temps partiel / Temps plein",
+      "description":"Obtention du baccalauréat au lycée Pierre et Marie Curie de Menton (série 2011 - 2012)."
+    }
+  ],
+
+  "footer": "© 2014 All Rights Reserved to Manuel Pavone.",
+  "phraseAccroche": "20 ans, étudiant 3ème année (cycle ingénieur)",
+  "objectif1":"•   Expériences de service à la clientèle, de merchandiser et caissier en GMS",
+  "objectif2":"•   Responsable, consciencieux, volontaire, curieux",
+  "objectif3":"•   Objectif professionnel : Obtenir mon diplôme d'ingénieur à l'école Polytech Sophia pour évoluer par la suite dans le domaine du développement de logiciels ou d'applications mobiles"
+
+}

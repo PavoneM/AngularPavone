@@ -1,0 +1,97 @@
+<div class="container">
+  <!-- Profile --><div id = "profile">
+
+  <!-- Info --><div id = "info">
+
+  <div class = "photo">
+    <img src = "{{infos.photo}}" height="280" width="280"/>
+  </div>
+
+  <div class = "personal-info">
+
+    <div class = "name-position">
+      <div class = "name">{{infos.prenom}} {{infos.nom}}</div>
+      <div class = "position">{{infos.job}}</div>
+    </div>
+
+    <div class = "header-block block">
+      <h2>Description</h2>
+      <div class = "block-content">
+        <p>{{modele.phraseAccroche}}<p>
+      </div>
+    </div>
+
+  </div>
+
+</div><!-- /Info -->
+
+  <!-- Content Inner --><div class = "content-inner">
+
+  <!-- Left Sidebar --><div class = "left-sidebar">
+
+  <div id = "information" class = "block">
+    <h2>Informations</h2>
+    <div class = "block-content">
+      <div class = "field">
+        <span class = "label">Prénom:</span>
+        <span class = "text">{{infos.prenom}}</span>
+      </div>
+      <div class = "field">
+        <span class = "label">Nom:</span>
+        <span class = "text">{{infos.nom}}</span>
+      </div>
+      <div class = "field">
+        <span class = "label">Age:</span>
+        <span class = "text">{{infos.age}}</span>
+      </div>
+      <div class = "field">
+        <span class = "label">Habite:</span>
+        <span class = "text">{{infos.maison}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div id = "skills" class = "block">
+    <h2>Comprétences</h2>
+    <div class = "block-content">
+      <div class = "field">
+        <span class = "label">Années d'expérience:</span>
+        <span class = "text">{{comp.annees}}</span>
+      </div>
+      <div class = "field">
+        <span class = "label">Diplômes:</span>
+        <span class = "text">{{comp.diplomes}}</span>
+      </div>
+      <div class = "field">
+        <span class = "label">Langues:</span>
+        <span class = "text">{{comp.langues}}</span>
+      </div>
+    </div>
+
+  </div>
+
+</div><!-- /Left Sidebar -->
+
+  <!-- Content --><div class = "content">
+  <p>
+    {{modele.objectif1}}<br/>
+    {{modele.objectif2}}<br/>
+    <b style='font-weight:bolder;'>{{modele.objectif3}}</b></b><br/><br/>
+  </p>
+  <div id = "programming-front" class = "block showing">
+    <h2>Programmation</h2>
+        <div class = "roll-field" ng-repeat="matiere in prog">
+          <div class = "label" >{{matiere.nom}}</div>
+          <div class = "progressbar"><span class = "progress-count" level = "{{matiere.niveau}}" afficher-level></span></div>
+        </div>
+  </div>
+
+
+</div><!-- /Content -->
+
+  <!-- Cleaner --><div class="clear"></div><!-- /Cleaner -->
+
+</div><!-- /Content Inner -->
+
+</div><!-- /Profile-->
+</div>

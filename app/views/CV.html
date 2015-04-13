@@ -1,0 +1,75 @@
+<div id = "cv" class="container">
+
+<div class = "content-inner">
+
+<div class = "left-sidebar page">
+
+  <div id = "programming" class = "block">
+    <h2>Programmation</h2>
+    <div class = "block-content">
+      <div class = "field roll-with-description hide" ng-repeat="matiere in progAlgo"  binder-le-click>
+        <div class = "roll-button"><span></span></div>
+        <div class = "roll-field">
+          <div class = "label">{{matiere.nom}}</div>
+          <div class = "progressbar"><span class = "progress-count" level = "70" afficher-level></span></div>
+          <div class = "description" cacher-contenu>{{matiere.description}}</div>
+        </div>
+      </div>
+      <!-- Cleaner --><div class="clear"></div><!-- /Cleaner -->
+    </div>
+  </div>
+
+  <div id = "office-apps" class = "block">
+    <h2>Programmation Web</h2>
+    <div class = "block-content">
+      <div class = "field roll-with-description hide" ng-repeat="matiere in progWeb"  binder-le-click>
+        <div class = "roll-button"><span></span></div>
+        <div class = "roll-field">
+          <div class = "label">{{matiere.nom}}</div>
+          <div class = "progressbar"><span class = "progress-count" level = "70" afficher-level></span></div>
+          <div class = "description" cacher-contenu>{{matiere.description}}</div>
+        </div>
+      </div>
+      <!-- Cleaner --><div class="clear"></div><!-- /Cleaner -->
+    </div>
+  </div>
+
+</div><!-- /Left Sidebar -->
+
+  <!-- Content --><div class = "content">
+
+  <div id = "employment" class = "block">
+    <h2>Expérience professionelle</h2>
+    <div class = "block-content">
+      <div class="text-field date" ng-repeat="exp in expPro">
+        <div class="text-field-left">{{exp.date}}</div>
+        <div class="text-field-right">
+          <div class="title">{{exp.titre}}</div>
+          <div class="meta without-icon"><span class="tag">{{exp.complement}}</span></div>
+          <div class="text"><p>{{exp.description}}</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id = "education" class = "block last">
+    <h2>Formation</h2>
+    <div class = "block-content">
+      <div class="text-field date" ng-repeat="form in formation">
+        <div class="text-field-left">{{form.date}}</div>
+        <div class="text-field-right">
+          <div class="title">{{form.titre}}</div>
+          <div class="meta without-icon"><span class="tag">{{form.complement}}</span></div>
+          <div class="text"><p>{{form.description}}</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /Content -->
+
+  <!-- Cleaner --><div class="clear"></div><!-- /Cleaner -->
+
+</div><!-- /Content Inner -->
+
+</div><!-- /CV -->
